@@ -1,0 +1,22 @@
+{
+  "name": "learning-with-sekx-n-emma",
+  "version": "0.0.1",
+  "description": "an open project where sekx and emma shares their learning experience week in-and-out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinsekx/learning-with-sekx-n-emma.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "sekx and Emmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvinsekx/learning-with-sekx-n-emma/issues"
+  },
+  "homepage": "https://github.com/kelvinsekx/learning-with-sekx-n-emma#readme"
+}

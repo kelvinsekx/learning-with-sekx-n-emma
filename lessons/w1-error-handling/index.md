@@ -36,3 +36,20 @@ One popular one is `errorCode`.
 (*image src: https://assets.digitalocean.com/articles/alligator/js/stack-trace/stack-trace-example.png*)
 
 The Error: `ReferenceError: notDefined is not defined` can be interpreted as `Error_Name: Error_Message`. Remember, we've explained standard properties of name and message above.
+
+## Difference between Error and Exceptions
+Do you know error is different from exceptions 🤨?<br>
+Usually, what we call errors aren't in the real sense, they are exceptions. Exceptions are almost expected and are prepared for.
+The opposite is errors, which are almost never envisaged.
+
+```js
+try {
+ connect(database)
+}catch (e) {
+ // catches the exception (not error)
+}
+```
+
+>An exception is an error object that has been thrown.
+
+Examples of error include OutOfMemoryError, StackOverflowError etc. These are unthrownable or uncatered for: almost impossible to cater for them. Even if they can be catered for, it is better to make them crash the code.

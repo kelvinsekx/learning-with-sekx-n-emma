@@ -21,3 +21,18 @@ catch(ex) {
     document.getElementById("errorMessage").innerHTML = ex;
 }
 ```
+
+## Properties of Error
+In JavaScript, error properties can be categorized into two: **Standard error properties and custom properties**.
+The standard error properties are:
+- name: This is also attached with the reason for an error.
+- message: provides additional details for the cause of the error
+- stack: traces code history that trigered the error.
+
+Custom error properties include any other properties aside the three mentioned. It is totally dependent on the developer to determine their name.
+One popular one is `errorCode`.
+
+![stack-trace-example](https://user-images.githubusercontent.com/51183064/178091213-c085f537-0a43-4748-9938-772246a99b8b.png)
+(*image src: https://assets.digitalocean.com/articles/alligator/js/stack-trace/stack-trace-example.png*)
+
+The Error: `ReferenceError: notDefined is not defined` can be interpreted as `Error_Name: Error_Message`. Remember, we've explained standard properties of name and message above.

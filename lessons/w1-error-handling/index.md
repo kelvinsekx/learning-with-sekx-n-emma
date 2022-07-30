@@ -1,6 +1,11 @@
 # Error Handling
 
-Error-handling is important in JavaScript, the major reason been that most javascript errors happens at run-time.
+Error-handling is important in JavaScript, the major reason been that most javascript errors happens at runtime.
+
+>**What is runtime?**
+ What this mean is that the errors pop up on the user end. From a layman perspective, it is when you run your script in a browser, or any other JavaScript environment 😳 unlike **compile time** that happens on the developer end.
+This is a major reason you need to be careful about your code in JavaScript.
+
 The most popular way to handle potential error prone codes is to wrap them in a try-catch block
 
 ```js
@@ -53,3 +58,8 @@ try {
 >An exception is an error object that has been thrown.
 
 Examples of error include OutOfMemoryError, StackOverflowError etc. These are unthrownable or uncatered for: almost impossible to cater for them. Even if they can be catered for, it is better to make them crash the code.
+
+
+*************
+Footer
+* Runtime is different from "run time".
